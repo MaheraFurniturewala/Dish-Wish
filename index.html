@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DishWish</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/59c4c90f3f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="responsive.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    
+</head>
+
+<body>
+    <nav class="navbar background navheight">
+        <ul class="navlist v-class">
+            <div class="logo"><img src="logo.jpg" alt="Logo"></div>
+            <li><a href="#home">Home</a></li>
+            <!-- <li><a href="#about">About</a></li> -->
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="navright v-class">
+            <button class="cart-button">
+                <a href="cart.html" target="_blank">
+                <i class="fa fa-shopping-cart"></i> Cart <span>0</span></button></a> 
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstSection" id="home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Lorem ipsum dolor sit amet consectetur.</p>
+                <p class="text-small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia temporibus eum
+                    pariatur?
+                    Lorem ipsum dolor sit amet consectetur.</p>
+                    <div class="buttons">
+                        <button class="btn">Checkout Our Offers</button>
+                        
+                    </div>
+            </div>
+            <div class="secondHalf">
+                <img src="food1.jpeg" alt="food">
+            </div>
+        </div>
+    </section>
+    <div class="container" id="menu">
+        <div class="image">
+            <img src="pizza.jpg" alt="pizza">
+            <h3>Pizza</h3>
+            <h3>500/-</h3>
+            <a href="#" class="add-cart cart1">Add to Cart</a>
+           
+        </div>
+        <div class="image">
+            <img src="pasta.jpg" alt="pasta">
+            <h3>Pasta</h3>
+            <h3>400/-</h3>
+            <a href="#" class="add-cart cart2">Add to Cart</a>
+           
+        </div>
+        <div class="image">
+            <img src="nachos.jpg" alt="nachos">
+            <h3>Nachos</h3>
+            <h3>300/-</h3>
+            <a href="#" class="add-cart cart3">Add to Cart</a>
+        </div>
+        <div class="image">
+            <img src="fries.jpg" alt="fries">
+            <h3>Fries</h3>
+            <h3>200/-</h3>
+            <a href="#" class="add-cart cart4">Add to Cart</a>
+        </div>
+        <div class="image">
+            <img src="burger.jpg" alt="fries">
+            <h3>Burger</h3>
+            <h3>500/-</h3>
+            <a href="#" class="add-cart cart5">Add to Cart</a>
+        </div>
+    </div>
+    <section class="contact" id="contact">
+        <h2 class="contacthead">Contact Us</h2>
+        <div>
+            <input type="text" name="name1" id="name1" placeholder="Enter your name"></div>
+            <div></div><input type="phone" name="phone" id="phone" placeholder="Enter your Contact No"></div>
+            <div></div><input type="email" name="mail" id="mail" placeholder="Enter your email.id"></div>
+            <div><button class="button2">Submit</button></div>
+            <textarea name="problem" id="problem" cols="20" rows="10" placeholder="Describe your problem"></textarea>
+        
+    </section>
+    <footer>
+        Copyright &copy; 2020 - www.DishWish.com- All rights reserved
+    </footer>
+     <script src="burger.js"></script>
+<script src="cart.js"></script> 
+    
+</body>
+
+</html>
