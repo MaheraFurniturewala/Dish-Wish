@@ -35,6 +35,24 @@
            flex-direction: column-reverse;
            max-width: 100%;
        }
+       .button2{
+            width:60%;
+       }
+       textarea{
+           width:90%;
+           height:40px;
+           
+       }
+       .contact input,textarea,button{
+           width:90%;
+       }
+       #problem{
+           width:160px;
+       }
+       .container img{
+           width:150px;
+           height:150px;
+       }
 }
 @media only screen and (max-width:600px){
     .image:hover .cart1,
@@ -42,6 +60,19 @@
 .image:hover .cart3,
 .image:hover .cart4,
 .image:hover .cart5{
-    left:108px;
+    left:0px;
+    height:30px;
+    width:150px;
+}
+}
+@media only screen and (min-width:600px) and (max-width:1100px){
+    .image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4,
+.image:hover .cart5{
+           left:0px;
+           width:150px;
+           height:35px;
 }
 }
